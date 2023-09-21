@@ -12,7 +12,7 @@ namespace Tyuiu.AlmukhametovTI.Sprint1.Task2.V30.Lib
     {
         public double ConvertKmToMetre(double value)
         {
-            return (value * 1500); 
+            return (value * 1000); 
         }
     }
 }
