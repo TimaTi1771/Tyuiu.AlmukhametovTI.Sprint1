@@ -14,7 +14,7 @@ namespace Tyuiu.AlmukhametovTI.Sprint1.Task2.V30.Test
             DataService ds = new DataService();
             double X = 1.5;
             var res = ds.ConvertKmToMetre(X);
-            Assert.AreEqual(2250, res);
+            Assert.AreEqual(1500, res);
         }
     }
 }
