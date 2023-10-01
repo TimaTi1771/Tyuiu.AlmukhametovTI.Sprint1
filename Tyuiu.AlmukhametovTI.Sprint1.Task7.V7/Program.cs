@@ -26,7 +26,7 @@ namespace Tyuiu.AlmukhametovTI.Sprint1.Task7.V7
             Console.WriteLine("* исходные данные, вычисляет результат по формуле и печатает его на  *");
             Console.WriteLine("* экране.                                                            *");
             Console.WriteLine("**********************************************************************");
-            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ       x,y                                          *");
+            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ    z = cos x / (п - 2y^x) + 16x cos(x y)-2         *");
             Console.WriteLine("**********************************************************************");
 
             double x, y;
