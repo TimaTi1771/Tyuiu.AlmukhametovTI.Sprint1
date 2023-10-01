@@ -12,11 +12,11 @@ namespace Tyuiu.AlmukhametovTI.Sprint1.Task5.V2.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double Fahrenheit = 14;
-            double res = ds.FahrenheitToСelsius(Fahrenheit);
+            double temp = 14;
+            double res = ds.FahrenheitToСelsius(temp);
             int result = Convert.ToInt32(res);
 
-            int wait = 10;
+            int wait = -10;
             Assert.AreEqual(result, wait);
         }
     }
